@@ -19,6 +19,7 @@ export default function Home() {
 
 
   const schema = yup.object().shape({
+    
     firstName: yup
       .string()
       .required("skriv dit navn"),
